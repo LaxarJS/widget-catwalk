@@ -1,0 +1,54 @@
+{
+   "layout": "one-column",
+
+   "areas": {
+      "axActivities": [
+      ],
+
+      "header": [
+      ],
+
+      "content": [
+         {
+            "widget": "catwalk-home-widget",
+            "features": {
+               "widgets": [
+                  {
+                     "widget": "laxar-accordion-widget"
+                  },
+                  {
+                     "widget": "laxar-command-bar-widget"
+                  },
+                  {
+                     "widget": "laxar-details-layer-widget"
+                  },
+                  {
+                     "widget": "laxar-headline-widget"
+                  },
+                  {
+                     "widget": "laxar-html-display-widget"
+                  },
+                  {
+                     "widget": "laxar-markdown-display-widget"
+                  },
+                  {
+                     "widget": "laxar-media-widget"
+                  },
+                  {
+                     "widget": "laxar-messages-widget"
+                  },
+                  {
+                     "widget": "laxar-popup-widget"
+                  },
+                  {
+                     "widget": "laxar-show-hide-widget"
+                  }
+               ]
+            }
+         }
+      ],
+
+      "footer": [
+      ]
+   }
+}

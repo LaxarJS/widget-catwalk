@@ -1,0 +1,10 @@
+{
+  "generator-laxarjs2": {
+    "author": "aixigo AG",
+    "homepage": "www.laxarjs.org",
+    "license": "MIT",
+    "banner": "/**\n * Copyright 2017 aixigo AG\n * Released under the MIT license\n * www.laxarjs.org\n */",
+    "infrastructure": false,
+    "integrationTechnology": "vue"
+  }
+}

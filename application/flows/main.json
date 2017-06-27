@@ -1,0 +1,50 @@
+{
+   "places": {
+
+      "home": {
+         "patterns": [ "/" ],
+         "page": "home"
+      },
+
+      "laxar-accordion-widget": {
+         "patterns": [ "/laxar-accordion-widget" ],
+         "page": "widgets/laxar-accordion-widget"
+      },
+      "laxar-command-bar-widget": {
+         "patterns": [ "/laxar-command-bar-widget" ],
+         "page": "widgets/laxar-command-bar-widget"
+      },
+      "laxar-details-layer-widget": {
+         "patterns": [ "/laxar-details-layer-widget" ],
+         "page": "widgets/laxar-details-layer-widget"
+      },
+      "laxar-headline-widget": {
+         "patterns": [ "/laxar-headline-widget" ],
+         "page": "widgets/laxar-headline-widget"
+      },
+      "laxar-html-display-widget": {
+         "patterns": [ "/laxar-html-display-widget" ],
+         "page": "widgets/laxar-html-display-widget"
+      },
+      "laxar-markdown-display-widget": {
+         "patterns": [ "/laxar-markdown-display-widget" ],
+         "page": "widgets/laxar-markdown-display-widget"
+      },
+      "laxar-media-widget": {
+         "patterns": [ "/laxar-media-widget" ],
+         "page": "widgets/laxar-media-widget"
+      },
+      "laxar-messages-widget": {
+         "patterns": [ "/laxar-messages-widget" ],
+         "page": "widgets/laxar-messages-widget"
+      },
+      "laxar-popup-widget": {
+         "patterns": [ "/laxar-popup-widget" ],
+         "page": "widgets/laxar-popup-widget"
+      },
+      "laxar-show-hide-widget": {
+         "patterns": [ "/laxar-show-hide-widget" ],
+         "page": "widgets/laxar-show-hide-widget"
+      }
+   }
+}

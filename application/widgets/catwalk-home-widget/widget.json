@@ -1,0 +1,32 @@
+{
+   "name": "catwalk-home-widget",
+   "description": "A widget for the home page.",
+
+   "integration": {
+      "technology": "vue",
+      "type": "widget"
+   },
+
+   "styleSource": "scss/catwalk-home-widget.scss",
+
+   "features": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {
+
+         "widgets": {
+            "type": "array",
+            "items": {
+               "type": "object",
+               "required": [ "widget" ],
+               "properties": {
+                  "widget": {
+                     "type": "string"
+                  }
+               }
+            }
+         }
+
+      }
+   }
+}

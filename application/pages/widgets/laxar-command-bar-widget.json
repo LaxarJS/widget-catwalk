@@ -1,0 +1,6 @@
+{
+   "extends": "widgets/widget-base",
+   "areas": {
+      "scenarios": []
+   }
+}

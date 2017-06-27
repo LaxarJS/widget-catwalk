@@ -1,0 +1,15 @@
+{
+   "extends": "widgets/widget-base",
+   "areas": {
+      "scenarios": [
+         {
+            "widget": "laxar-headline-widget",
+            "features": {
+               "headline": {
+                  "i18nHtmlText": "A simple headline with default level 1"
+               }
+            }
+         }
+      ]
+   }
+}
