@@ -1,6 +1,35 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "activities": [
+         {
+            "widget": "catwalk-dummy-resource-activity",
+            "features": {
+               "resources": [
+                  {
+                     "name": "mediaTestContent",
+                     "data": {
+                        "mimeType": "image/gif",
+                        "location": "http://thecatapi.com/api/images/get?format=src&type=gif",
+                        "name": "Random Cat",
+                        "description": "Just a random cat GIF from teh interwebz"
+                     }
+                  }
+               ]
+            }
+         }
+      ],
+      "scenarios": [
+         {
+            "widget": "laxar-media-widget",
+            "features": {
+               "medium": {
+                  "resource": "mediaTestContent",
+                  "showTitle": true,
+                  "showCaption": true
+               }
+            }
+         }
+      ]
    }
 }

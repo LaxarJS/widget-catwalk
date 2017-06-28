@@ -1,11 +1,24 @@
-.widget-page {
+.widget-page-layout {
    &.container {
       position: relative
    }
    .ax-footer {
       margin-top: 20px
    }
-   .one-column-content {
-      position: relative;
+
+   .widget-page-scenarios {
+      margin-bottom: 30px;
+
+      > div {
+         border: 1px solid #666;
+         border-radius: 5px;
+         padding: 10px;
+         margin-top: 10px;
+
+         &:first-child {
+            margin-top: 0;
+         }
+      }
+
    }
 }

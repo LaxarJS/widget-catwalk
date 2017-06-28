@@ -30,6 +30,6 @@ const config = {
 
 create( [ angularAdapter, reactAdapter, vueAdapter ], artifacts, config )
 // Uncomment to use the LaxarJS developer tools (https://chrome.google.com/webstore/search/LaxarJS):
-// .tooling( require( 'laxar-loader/debug-info?flow=main&theme=default' ) )
+   .tooling( require( 'laxar-loader/debug-info?flow=main&theme=default' ) )
    .flow( 'main', document.querySelector( '[data-ax-page]' ) )
    .bootstrap();

@@ -1,6 +1,38 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "scenarios": [
+         {
+            "widget": "laxar-command-bar-widget",
+            "features": {
+               "buttons": [
+                  {
+                     "i18nHtmlLabel": "Show Contents",
+                     "action": "show"
+                  },
+                  {
+                     "i18nHtmlLabel": "Hide Contents",
+                     "action": "hide"
+                  }
+               ]
+            }
+         },
+         {
+            "widget": "laxar-show-hide-widget",
+            "id": "firstShowHide",
+            "features": {
+               "area": {
+                  "name": "contents"
+               },
+               "show": {
+                  "onActions": [ "show" ]
+               },
+               "hide": {
+                  "onActions": [ "hide" ]
+               }
+            }
+         }
+      ],
+      "firstShowHide.contents": [ { "widget": "catwalk-random-cat-widget" } ]
    }
 }

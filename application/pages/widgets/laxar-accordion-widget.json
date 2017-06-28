@@ -1,6 +1,30 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "scenarios": [
+         {
+            "widget": "laxar-accordion-widget",
+            "id": "firstAccordion",
+            "features": {
+               "areas": [
+                  {
+                     "name": "first",
+                     "i18nHtmlLabel": "First Area"
+                  },
+                  {
+                     "name": "second",
+                     "i18nHtmlLabel": "Second Area"
+                  },
+                  {
+                     "name": "third",
+                     "i18nHtmlLabel": "Third Area"
+                  }
+               ]
+            }
+         }
+      ],
+      "firstAccordion.first": [ { "widget": "catwalk-random-cat-widget" } ],
+      "firstAccordion.second": [ { "widget": "catwalk-random-cat-widget" } ],
+      "firstAccordion.third": [ { "widget": "catwalk-random-cat-widget" } ]
    }
 }

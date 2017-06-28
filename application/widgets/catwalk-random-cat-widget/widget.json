@@ -1,0 +1,19 @@
+{
+   "name": "catwalk-random-cat-widget",
+   "description": "Shows a random cat picture from a remote source.",
+
+   "integration": {
+      "technology": "plain",
+      "type": "widget"
+   },
+
+   "styleSource": "scss/catwalk-random-cat-widget.scss",
+
+   "features": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {
+
+      }
+   }
+}

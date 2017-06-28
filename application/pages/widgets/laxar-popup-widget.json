@@ -1,6 +1,46 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "scenarios": [
+         {
+            "widget": "laxar-command-bar-widget",
+            "features": {
+               "buttons": [
+                  {
+                     "i18nHtmlLabel": "First Popup",
+                     "action": "openFirstPopup"
+                  }
+               ]
+            }
+         }
+      ],
+      "popups": [
+         {
+            "widget": "laxar-popup-widget",
+            "id": "firstPopup",
+            "features": {
+               "area": {
+                  "name": "contents"
+               },
+               "open": {
+                  "onActions": [
+                     "openFirstPopup"
+                  ]
+               },
+               "close": {
+                  "onActions": [
+                     "closeFirstPopup"
+                  ]
+               },
+               "closeIcon": {
+                  "enabled": true
+               },
+               "backdropClose": {
+                  "enabled": true
+               }
+            }
+         }
+      ],
+      "firstPopup.contents": [ { "widget": "catwalk-random-cat-widget" } ]
    }
 }

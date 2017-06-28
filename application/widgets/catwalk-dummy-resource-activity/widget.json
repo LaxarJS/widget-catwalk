@@ -1,0 +1,34 @@
+{
+   "name": "catwalk-dummy-resource-activity",
+   "description": "Publishes dummy resources for testing.",
+
+   "integration": {
+      "technology": "plain",
+      "type": "activity"
+   },
+
+   "features": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {
+
+         "resources": {
+            "type": "array",
+            "items": {
+               "type": "object",
+               "required": [ "name", "data" ],
+               "properties": {
+                  "name": {
+                     "type": "string"
+                  },
+                  "data": {
+                     "type": [ "object", "string", "number", "boolean", "null" ],
+                     "additionalProperties": true
+                  }
+               }
+            }
+         }
+
+      }
+   }
+}

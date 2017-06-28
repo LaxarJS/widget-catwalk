@@ -9,6 +9,41 @@
                   "i18nHtmlText": "A simple headline with default level 1"
                }
             }
+         },
+         {
+            "widget": "laxar-headline-widget",
+            "features": {
+               "headline": {
+                  "i18nHtmlText": "A headline with level 3 and intro text",
+                  "level": 3
+               },
+               "intro": {
+                  "i18nHtmlText": "<p>Let me introduce you to the headline widget.<p><p>It's great!</p>"
+               }
+            }
+         },
+         {
+            "widget": "laxar-headline-widget",
+            "features": {
+               "headline": {
+                  "i18nHtmlText": "A headline widget with buttons"
+               },
+               "intro": {
+                  "i18nHtmlText": "A headline with buttons? Who needs this crazy thing?"
+               },
+               "buttons": [
+                  {
+                     "align": "LEFT",
+                     "i18nHtmlLabel": "<i class=\"fa fa-hand-o-left\"></i> to the left",
+                     "action": "noop"
+                  },
+                  {
+                     "align": "RIGHT",
+                     "i18nHtmlLabel": "to the right <i class=\"fa fa-hand-o-right\"></i>",
+                     "action": "noop"
+                  }
+               ]
+            }
          }
       ]
    }

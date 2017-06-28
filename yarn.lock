@@ -108,6 +108,10 @@ angular-mocks@^1.5.7:
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.6.4.tgz#47fdf50921cf24fb489f100a8cf2ad99d0538f40"
 
+angular-sanitize@^1.5.7:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.6.4.tgz#60a37ea96fb0d4a322a3ccb64ee4a5cf3b154f0c"
+
 angular@^1.5.7:
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.4.tgz#03b7b15c01a0802d7e2cf593240e604054dc77fb"
@@ -4073,9 +4077,9 @@ laxar-accordion-control@2.0.0-alpha.2:
     jquery-ui "^1.12.1"
     lodash.debounce "^4.0.8"
 
-laxar-accordion-widget@^3.0.0-alpha.0:
-  version "3.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/laxar-accordion-widget/-/laxar-accordion-widget-3.0.0-alpha.0.tgz#be037476dc1a32424f156c6e1879cb104ae7cff5"
+laxar-accordion-widget@^3.0.0-rc.0:
+  version "3.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/laxar-accordion-widget/-/laxar-accordion-widget-3.0.0-rc.0.tgz#6f621efe22c5f8d4412108c1baac9f11191fafc3"
   dependencies:
     laxar-accordion-control "2.0.0-alpha.2"
 
@@ -4083,20 +4087,20 @@ laxar-angular-adapter@^2.0.0-rc.1:
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/laxar-angular-adapter/-/laxar-angular-adapter-2.0.0-rc.1.tgz#4274802eb0a354dc58195af3f54336395a678216"
 
-laxar-button-list-control@2.0.0-alpha.0:
-  version "2.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/laxar-button-list-control/-/laxar-button-list-control-2.0.0-alpha.0.tgz#e5a08ef562c75750676689595a938aecedc1a441"
+laxar-button-list-control@2.0.0-rc.0:
+  version "2.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/laxar-button-list-control/-/laxar-button-list-control-2.0.0-rc.0.tgz#649890b7851bf0900bb9a4623722881ae4d46e24"
 
-laxar-command-bar-widget@^3.0.0-alpha.0:
-  version "3.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/laxar-command-bar-widget/-/laxar-command-bar-widget-3.0.0-alpha.0.tgz#e9b5324e05e94632261d02c53ea72ca47b7a3366"
+laxar-command-bar-widget@^3.0.0-rc.1:
+  version "3.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/laxar-command-bar-widget/-/laxar-command-bar-widget-3.0.0-rc.1.tgz#0f68ae3ed7002703fb345adbb4bc68acb4f73d56"
   dependencies:
-    laxar-button-list-control "2.0.0-alpha.0"
-    laxar-patterns "^2.0.0-alpha.2"
+    laxar-button-list-control "2.0.0-rc.0"
+    laxar-patterns "^2.0.0-rc.2"
 
-laxar-details-layer-widget@^2.0.0-alpha.0:
-  version "2.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/laxar-details-layer-widget/-/laxar-details-layer-widget-2.0.0-alpha.0.tgz#a59550ed13674defca8902717c3e9cd3fcfa1679"
+laxar-details-layer-widget@^2.0.0-rc.1:
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/laxar-details-layer-widget/-/laxar-details-layer-widget-2.0.0-rc.1.tgz#0e33d61f9ae103314feca4e7c5b2f1799e288579"
   dependencies:
     laxar-patterns "^2.0.0-alpha.2"
 
@@ -4106,9 +4110,9 @@ laxar-headline-widget@^4.0.0-rc.0:
   dependencies:
     laxar-patterns "^2.0.0-rc.2"
 
-laxar-html-display-widget@^3.0.0-alpha.1:
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/laxar-html-display-widget/-/laxar-html-display-widget-3.0.0-alpha.1.tgz#5519556420f0fd29fdb35f59e3beaf134d478143"
+laxar-html-display-widget@^3.0.0-rc.0:
+  version "3.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/laxar-html-display-widget/-/laxar-html-display-widget-3.0.0-rc.0.tgz#2c7e6453ef9127cba4053331d2ec22038114bf3f"
   dependencies:
     laxar "^2.0.0-rc.3"
     laxar-patterns "^2.0.0-rc.2"
@@ -4151,9 +4155,9 @@ laxar-loader@^2.0.0-rc.3:
     loader-utils "^0.2.15"
     raw-loader "^0.5.1"
 
-laxar-markdown-display-widget@^3.0.0-alpha.1:
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/laxar-markdown-display-widget/-/laxar-markdown-display-widget-3.0.0-alpha.1.tgz#53d566c18e131ae4efb2311092b747f9e0179294"
+laxar-markdown-display-widget@^3.0.0-rc.0:
+  version "3.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/laxar-markdown-display-widget/-/laxar-markdown-display-widget-3.0.0-rc.0.tgz#e6fc4811401006dcf049f6691546753cbd95d570"
   dependencies:
     angular "^1.5.7"
     bootstrap "^3.3.7"
@@ -4164,13 +4168,13 @@ laxar-markdown-display-widget@^3.0.0-alpha.1:
     marked "^0.3.6"
     urijs "^1.18.9"
 
-laxar-media-widget@^3.0.0-alpha.0:
-  version v3.0.0-alpha.0
-  resolved "https://registry.yarnpkg.com/laxar-media-widget/-/laxar-media-widget-3.0.0-alpha.0.tgz#deeff390c28a6f36719134a34f8abfe946916328"
+laxar-media-widget@^3.0.0-rc.0:
+  version v3.0.0-rc.0
+  resolved "https://registry.yarnpkg.com/laxar-media-widget/-/laxar-media-widget-3.0.0-rc.0.tgz#3956bcebd626cbfb9e6a1b39e63ff164b5fa030c"
 
-laxar-messages-widget@^5.0.0-alpha.1:
-  version v5.0.0-alpha.1
-  resolved "https://registry.yarnpkg.com/laxar-messages-widget/-/laxar-messages-widget-5.0.0-alpha.1.tgz#e40a15e83601c4ec1a03230f98f760dc2427ae76"
+laxar-messages-widget@^5.0.0-rc.0:
+  version v5.0.0-rc.0
+  resolved "https://registry.yarnpkg.com/laxar-messages-widget/-/laxar-messages-widget-5.0.0-rc.0.tgz#5a1f0861368d55b96d09b6f614b22fd57941cd4e"
 
 laxar-mocks@^2.0.0-rc.2:
   version "2.0.0-rc.2"
@@ -4185,9 +4189,9 @@ laxar-patterns@2.0.0-rc.2, laxar-patterns@^2.0.0-alpha.2, laxar-patterns@^2.0.0-
     fast-json-patch "~0.5.2"
     laxar "^2.0.0-rc.2"
 
-laxar-popup-widget@^4.0.0-alpha.1:
-  version "4.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/laxar-popup-widget/-/laxar-popup-widget-4.0.0-alpha.1.tgz#c48dcc09dfebc8abb11785d7ae04fb92a1d312eb"
+laxar-popup-widget@^4.0.0-rc.0:
+  version "4.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/laxar-popup-widget/-/laxar-popup-widget-4.0.0-rc.0.tgz#790cbf7e9b84af80d80b8764044fe1e9c7b1c529"
   dependencies:
     laxar-layer-control "^2.0.0-alpha.1"
 
@@ -4195,11 +4199,13 @@ laxar-react-adapter@^2.0.0-rc.1:
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/laxar-react-adapter/-/laxar-react-adapter-2.0.0-rc.1.tgz#2d21c7e253d3d0027dc84fe20ddac2ab1dc6d203"
 
-laxar-show-hide-widget@^3.0.0-alpha.0:
-  version "3.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/laxar-show-hide-widget/-/laxar-show-hide-widget-3.0.0-alpha.0.tgz#2dd84e9aae3ba563e96e2a7d07a551830a5995b8"
+laxar-show-hide-widget@^3.0.0-rc.1:
+  version "3.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/laxar-show-hide-widget/-/laxar-show-hide-widget-3.0.0-rc.1.tgz#2d1df04970166fd428a2ae9d4b165e12946fe468"
   dependencies:
     jquery "^1.11.x"
+    laxar-patterns "2.0.0-rc.2"
+    lodash.debounce "^4.0.8"
 
 laxar-tooling@^2.0.0-rc.2:
   version "2.0.0-rc.2"

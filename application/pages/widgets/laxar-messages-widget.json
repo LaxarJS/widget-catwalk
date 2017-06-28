@@ -1,6 +1,54 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "scenarios": [
+         {
+            "widget": "catwalk-validation-simulator-widget"
+         },
+         {
+            "widget": "laxar-messages-widget",
+            "features": {
+               "resource": {
+                  "list": []
+               },
+               "layout": {
+                  "variant": 1
+               }
+            }
+         },
+         {
+            "widget": "laxar-messages-widget",
+            "features": {
+               "resource": {
+                  "list": []
+               },
+               "layout": {
+                  "variant": 2
+               }
+            }
+         },
+         {
+            "widget": "laxar-messages-widget",
+            "features": {
+               "resource": {
+                  "list": []
+               },
+               "layout": {
+                  "variant": 3
+               }
+            }
+         },
+         {
+            "widget": "laxar-messages-widget",
+            "features": {
+               "resource": {
+                  "list": []
+               },
+               "layout": {
+                  "variant": 4
+               }
+            }
+         }
+      ]
    }
 }

@@ -1,6 +1,32 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "activities": [
+         {
+            "widget": "catwalk-dummy-resource-activity",
+            "features": {
+               "resources": [
+                  {
+                     "name": "mdTestContent",
+                     "data": {
+                        "markdown": "Just _some_ [**markdown**](https://daringfireball.net/projects/markdown/)"
+                     }
+                  }
+               ]
+            }
+         }
+      ],
+      "scenarios": [
+         {
+            "widget": "laxar-markdown-display-widget",
+            "features": {
+               "markdown": {
+                  "parameter": "laxar-markdown-display-widget",
+                  "resource": "mdTestContent",
+                  "attribute": "markdown"
+               }
+            }
+         }
+      ]
    }
 }

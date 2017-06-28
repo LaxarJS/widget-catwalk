@@ -1,6 +1,35 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "scenarios": [
+         {
+            "widget": "catwalk-action-display-widget"
+         },
+         {
+            "widget": "laxar-command-bar-widget",
+            "features": {
+               "previous": {
+                  "enabled": true,
+                  "action": "previous"
+               },
+               "ok": {
+                  "enabled": true,
+                  "action": "ok",
+                  "class": "SUCCESS"
+               },
+               "next": {
+                  "enabled": true,
+                  "action": "next"
+               },
+               "buttons": [
+                  {
+                     "align": "CENTER",
+                     "i18nHtmlLabel": "Something Custom",
+                     "action": "customAction"
+                  }
+               ]
+            }
+         }
+      ]
    }
 }

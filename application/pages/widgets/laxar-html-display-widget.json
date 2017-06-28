@@ -1,6 +1,28 @@
 {
    "extends": "widgets/widget-base",
    "areas": {
-      "scenarios": []
+      "activities": [
+         {
+            "widget": "catwalk-dummy-resource-activity",
+            "features": {
+               "resources": [
+                  {
+                     "name": "htmlTestContent",
+                     "data": "<span style=\"color: deeppink\">Just some <em>HTML</em> ...</span>"
+                  }
+               ]
+            }
+         }
+      ],
+      "scenarios": [
+         {
+            "widget": "laxar-html-display-widget",
+            "features": {
+               "content": {
+                  "resource": "htmlTestContent"
+               }
+            }
+         }
+      ]
    }
 }
