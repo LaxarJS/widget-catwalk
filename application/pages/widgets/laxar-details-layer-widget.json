@@ -14,7 +14,7 @@
             }
          }
       ],
-      "popups": [
+      "axPopups": [
          {
             "widget": "laxar-details-layer-widget",
             "id": "firstLayer",
